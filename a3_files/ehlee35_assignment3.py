@@ -198,7 +198,8 @@ def main(argv):
 
     print(round(computeAccuracy(all_predictions, all_gold_labels)[0], 4))
 
-    # PRECISION POSITIVE
+    # PART 3
+    # PRECISION AND RECALL
 
     from evaluation import computePrecisionRecall
 
